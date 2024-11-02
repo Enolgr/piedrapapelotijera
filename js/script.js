@@ -53,7 +53,6 @@ $(document).ready(function () {
                     seleccion1 = respuesta.seleccion;
 
                     if (jugador1 && seleccion1) {
-                        
                         // Si hay un jugador1, se puede jugar
                         solucion();
                     } else {
