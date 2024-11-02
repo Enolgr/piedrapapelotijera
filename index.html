@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=tanker@400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico"/>
+    <title>Piedra, papel o tijera</title>
+</head>
+
+<body>
+    <section class="app">
+    <h1>¡Piedra, Papel o Tijera!</h1>
+    <div class="tarjeta">
+        <input id="nombre" type="text" required placeholder="Introduce tu nombre" />
+        <div class="elementos">
+            <img class="elemento" data-value="piedra" id="piedra" src="./img/piedra.png" alt="piedra" />
+            <img class="elemento" data-value="papel" id="papel" src="./img/papel.png" alt="papel" />
+            <img class="elemento" data-value="tijera" id="tijera" src="./img/tijera.png" alt="tijera" />
+        </div>
+
+        <div class="resultado-container">
+        <h2 id="respuesta"></h2>
+        </div>
+
+        <button id="jugar">jugar</button>
+
+    </div>
+
+    <div class="footer">
+        <p>Made with ❤️ by Enol González</p>
+    </div>
+</section>
+
+
+    <!--scripts -->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="./js/script.js"></script>
+<script src="./js/sonidos.js"></script>
+
+</body>
+
+</html>
