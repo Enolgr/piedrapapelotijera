@@ -1,5 +1,7 @@
 # Piedra, Papel o Tijera
 
+[Demo en línea](https://ppot.enol.dev)
+
 ¡Bienvenido al juego de Piedra, Papel o Tijera! Este es un juego clásico donde dos jugadores pueden competir entre sí. La aplicación está desarrollada utilizando HTML, CSS, JavaScript y PHP.
 
 ## Descripción
@@ -37,4 +39,4 @@ Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/tu_usuario/piedra-papel-tijera.git
+   git clone https://github.com/Enolgr/piedrapapelotijera.git
