@@ -1,15 +1,16 @@
 <?php
-session_start();
-$DB_HOST = $_ENV["DB_HOST"];
-$DB_USER = $_ENV["DB_USER"];
-$DB_PASSWORD = $_ENV["DB_PASSWORD"];
-$DB_NAME = $_ENV["DB_NAME"];
-$DB_PORT = $_ENV["DB_PORT"];
 
-$db = mysqli_connect($DB_HOST, $DB_USER, $DB_PASSWORD, $DB_NAME, $DB_PORT);
+// Sirve para mostrar los errores.
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
-if (!$db) {
-    die("Connection failed: " . mysqli_connect_error());
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "ppot";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+    die("Conexión fallida: " . $conn->connect_error);
 }
-
-
