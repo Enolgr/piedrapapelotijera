@@ -14,6 +14,10 @@ El objetivo de este proyecto es proporcionar un entorno en línea donde los juga
 
 Si ambos jugadores eligen la misma opción, el resultado es un empate.
 
+
+![image](https://github.com/user-attachments/assets/99fa450d-27af-446f-a1a7-a035069bfd17)
+
+
 ## Características
 
 - Registro de nombre de jugador.
